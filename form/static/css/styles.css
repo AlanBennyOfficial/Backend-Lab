@@ -1,0 +1,36 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 20px;
+}
+
+h1 {
+    color: #007bff;
+    align-self: center;
+}
+
+p {
+    line-height: 1.6;
+}
+
+@keyframes cube {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}
+.cube {
+  /* ... other cube styles ... */
+  animation: rotateCube 10s linear infinite;
+}
+.box{
+  align-items: center;
+  box-shadow: 15px;
+  border-top: #007bff;
+  border-bottom: #007bff;
+  border-left: #007bff;
+  border-right: #007bff;
+}
