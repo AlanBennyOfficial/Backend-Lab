@@ -1,3 +1,5 @@
+# 6. Create a Flask application to navigate between multiple links in a webpage.
+
 from flask import Flask, render_template
 
 app = Flask(__name__)

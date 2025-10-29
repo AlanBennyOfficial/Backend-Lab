@@ -1,3 +1,6 @@
+# Write a Flask app with a /contact page containing a form (Name, Message) and a /submit
+# route that displays the submitted data using both POST and GET methods.
+
 from flask import Flask, render_template,request
 
 app = Flask(__name__)
@@ -15,7 +18,8 @@ def submit():
     else:
         name = request.args.get('username')
         msg = request.args.get('message')
-        return f"<h2>Thanks, {name}!</h2><p>Your message: {msg}</p>"
+    
+    return f"<h2>Thanks, {name}!</h2><p>Your message: {msg}</p>"
     
     
 if __name__ == '__main__':

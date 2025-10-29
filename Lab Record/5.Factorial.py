@@ -17,7 +17,7 @@ def factorial(number):
     for i in range(1, number + 1):
         fact *= i
 
-        return f"Factorial of {number} is: {fact}"
+    return f"Factorial of {number} is: {fact}"
 
 if __name__ == '__main__':
     app.run(debug=True)

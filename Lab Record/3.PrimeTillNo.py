@@ -21,6 +21,7 @@ def prime(number):
                 break
             else:
                 primes += str(i) + ", "
+                break
     return primes
 
 if __name__ == '__main__':

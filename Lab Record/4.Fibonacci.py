@@ -22,7 +22,7 @@ def fibonacci(number):
         fibs += str(fib1) + ", "
         fib1, fib2 = fib2, fib1 + fib2
 
-        return fibs
+    return fibs
 
 if __name__ == '__main__':
     app.run(debug=True)
